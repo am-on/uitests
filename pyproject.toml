@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "uitests"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynput = "^1.8.1"
+mss = "^10.0.0"
+pytesseract = "^0.3.13"
+opencv-python = "^4.11.0.86"
+numpy = "^2.2.4"
+structlog = "^25.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+pytest-cov = "^6.0.0"
+pytest-mock = "^3.14.0"
+pytest-randomly = "^3.16.0"
+pytest-timeout = "^2.3.1"
+types-pynput = "^1.8.1.20250318"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

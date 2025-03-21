@@ -1,0 +1,33 @@
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# py-test
+.coverage
+htmlcov
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+typecov/
+
+# Ruff stuff:
+.ruff_cache/
+
+# Ignore debug screenshots
+src/uitests/debug_screenshots/
